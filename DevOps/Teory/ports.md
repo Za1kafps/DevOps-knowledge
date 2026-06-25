@@ -1,0 +1,36 @@
+## ports
+- 20/21 FTP
+- 22 SSH
+- 25 SMTP
+- 53 DNS
+- 67/68 DHCP
+- 80 HTTP
+- 110 POP3
+- 123 NTP
+- 143 IMAP
+- 443 HTTPS
+- 445 SMB
+- 465 SMTPS
+- 587 SMTP submission
+- 993 IMAPS
+- 995 POP3S
+- 2049 NFS
+- 2379 etcd client
+- 2380 etcd peer
+- 3000 Node/Grafana/dev app
+- 3306 MySQL
+- 5432 PostgreSQL
+- 5672 RabbitMQ AMQP
+- 6379 Redis
+- 6443 Kubernetes API Server
+- 8000 dev HTTP
+- 8080 HTTP alternative
+- 8443 HTTPS alternative 
+- 9090 Prometheus
+- 9100 node_exporter
+- 9200 Elasticsearch
+- 9300 Elasticsearch transport
+- 10250 kubelet API
+- 10254 nginx ingress metrics/health
+- 27017 Mongo DB
+[[App on Nginx dead]], [[Inode]], [[Load average]], [[Logic of troubleshooting]], [[PID]], [[ports]], [[protocols]], [[DevOps/Teory/strace|strace]] 

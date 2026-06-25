@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "762eeda2e5c95fda",
+    "type": "split",
+    "children": [
+      {
+        "id": "ded32cf633e9b0e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc4dafa372ed5eca",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e1db21b0a59fb414",
+    "type": "split",
+    "children": [
+      {
+        "id": "83768c2776a97246",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e61caed89c0c8836",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "1bc0a6da0dc3227e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "0cf4c2fd30d551e4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a2a2458c4bf6a340",
+    "type": "split",
+    "children": [
+      {
+        "id": "c89a4a0fb159c935",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff32cd5b21f371a3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки"
+            }
+          },
+          {
+            "id": "b6186cb7760f7ffb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки"
+            }
+          },
+          {
+            "id": "d1ebf4b612161556",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "ec07442211ee6ad4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "6abd30e98e0adaf7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "bc4dafa372ed5eca",
+  "lastOpenFiles": [
+    "DevOps/Teory/App on Nginx dead.md",
+    "DevOps/Teory/strace.md",
+    "DevOps/Teory/protocols.md",
+    "DevOps/Teory/ports.md",
+    "DevOps/Teory/PID.md",
+    "DevOps/Teory/Logic of troubleshooting.md",
+    "DevOps/Teory/Load average.md",
+    "DevOps/Teory/Inode.md",
+    "DevOps/01_Linux/Linux.md",
+    "DevOps/01_Linux/systemd.md",
+    "DevOps/01_Linux/strace.md",
+    "DevOps/01_Linux/SSH.md",
+    "DevOps/01_Linux/Networking.md",
+    "DevOps/01_Linux/ss.md",
+    "DevOps/01_Linux/Memory and OOM.md",
+    "DevOps/01_Linux/lsof.md",
+    "DevOps/01_Linux/Permissions.md",
+    "DevOps/01_Linux/Linux Processes.md",
+    "DevOps/01_Linux/Linux Filesystem.md",
+    "DevOps/02_Network/HTTP requests/DELETE.md",
+    "DevOps/01_Linux/cron.md",
+    "DevOps/01_Linux/journalctl.md",
+    "DevOps/01_Linux/Disk Full.md",
+    "DevOps/02_Network/TLS.md",
+    "DevOps/02_Network/Network.md",
+    "DevOps/02_Network/UDP.md",
+    "Без названия 2.canvas",
+    "Без названия 1.canvas",
+    "Без названия.canvas",
+    "DevOps/02_Network/HTTP requests",
+    "DevOps/Teory",
+    "Без названия"
+  ]
+}

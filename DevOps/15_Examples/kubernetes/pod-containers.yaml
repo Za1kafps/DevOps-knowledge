@@ -1,0 +1,61 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-container-types
+  labels:
+    app: pod-container-types
+spec:
+  shareProcessNamespace: true
+  initContainers:
+    - name: prepare-config
+      image: busybox:1.36
+      command:
+        - sh
+        - -ec
+        - printf 'generated=true\n' >/work/app.conf
+      volumeMounts:
+        - name: work
+          mountPath: /work
+    - name: log-sidecar
+      image: busybox:1.36
+      restartPolicy: Always
+      command:
+        - sh
+        - -ec
+        - tail -n+1 -F /var/log/app/access.log
+      volumeMounts:
+        - name: logs
+          mountPath: /var/log/app
+      resources:
+        requests:
+          cpu: 10m
+          memory: 16Mi
+        limits:
+          memory: 32Mi
+  containers:
+    - name: app
+      image: nginx:1.27-alpine
+      ports:
+        - name: http
+          containerPort: 80
+      volumeMounts:
+        - name: work
+          mountPath: /etc/generated
+          readOnly: true
+        - name: logs
+          mountPath: /var/log/nginx
+      readinessProbe:
+        httpGet:
+          path: /
+          port: http
+      resources:
+        requests:
+          cpu: 50m
+          memory: 32Mi
+        limits:
+          memory: 64Mi
+  volumes:
+    - name: work
+      emptyDir: {}
+    - name: logs
+      emptyDir: {}
