@@ -1,4 +1,4 @@
-# DevOps Knowledge Obsidian
+# DevOps Knowledge Vault
 
 A structured DevOps knowledge base focused on Linux, networking, containers, Kubernetes, CI/CD, observability, security, reliability and troubleshooting.
 
@@ -121,4 +121,3 @@ Troubleshooting
 Markdown
 Obsidian
 ```
-
